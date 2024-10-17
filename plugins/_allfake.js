@@ -50,17 +50,17 @@ global.fake = {
 contextInfo: {
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
-newsletterJid: "120363302472386010@newsletter",
+newsletterJid: "12098765423@newsletter",
 serverMessageId: 100,
-newsletterName: 'Canal Ejemplo',
+newsletterName: '𝑺𝑰𝑺𝑲𝑬𝑫-𝑩𝑶𝑻',
 },
 externalAdReply: { 
 showAdAttribution: true,
-title: 'Bot Ejemplo',
+title: '𝑺𝑰𝑺𝑲𝑬𝑫-𝑩𝑶𝑻',
 body: 'Descripción Ejemplo',
 previewType: "PHOTO",
 thumbnailUrl: 'https://i.ibb.co/GQN78ww/file.jpg',
-sourceUrl: 'https://github.com/Andrea-Sis/Amor-Sis',
+sourceUrl: 'https://www.instagram.com/sisked_1',
 mediaType: 1,
 renderLargerThumbnail: false
 },},}
