@@ -59,7 +59,7 @@ showAdAttribution: true,
 title: '𝑺𝑰𝑺𝑲𝑬𝑫-𝑩𝑶𝑻',
 body: 'Descripción Ejemplo',
 previewType: "PHOTO",
-thumbnailUrl: 'https://i.ibb.co/GQN78ww/file.jpg',
+thumbnailUrl: 'https://i.ibb.co/qBxdwZW/file.jpg',
 sourceUrl: 'https://www.instagram.com/sisked_1',
 mediaType: 1,
 renderLargerThumbnail: false
