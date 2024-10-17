@@ -45,4 +45,24 @@ let img = catalogo
 				}
 			}
 		}
+
+global.fake = {
+contextInfo: {
+isForwarded: true,
+forwardedNewsletterMessageInfo: {
+newsletterJid: "120363302472386010@newsletter",
+serverMessageId: 100,
+newsletterName: 'Canal Ejemplo',
+},
+externalAdReply: { 
+showAdAttribution: true,
+title: 'Bot Ejemplo',
+body: 'Descripción Ejemplo',
+previewType: "PHOTO",
+thumbnailUrl: 'https://i.ibb.co/GQN78ww/file.jpg',
+sourceUrl: 'https://github.com/Andrea-Sis/Amor-Sis',
+mediaType: 1,
+renderLargerThumbnail: false
+},},}
+	
 }
