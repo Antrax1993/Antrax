@@ -3,7 +3,7 @@ import fetch from 'node-fetch'
 export async function before(m, { conn }) {
 //let img = await (await fetch(`https://tinyurl.com/2c5hk765`)).buffer()
 let img = catalogo
- global.rcanal = {
+ global.fake = {
     contextInfo: {
     	isForwarded: true,
     forwardedNewsletterMessageInfo: {
@@ -46,7 +46,7 @@ let img = catalogo
 			}
 		}
 
-global.fake = {
+global.rcanal = {
 contextInfo: {
 isForwarded: true,
 forwardedNewsletterMessageInfo: {
