@@ -86,6 +86,15 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       chat.antiLink = isEnable
       break
 
+      case 'antidelete': case 'antieliminar': case 'delete':
+      if (m.isGroup) {
+      if (!(isAdmin || isOwner)) {
+      global.dfail('admin', m, conn)
+      throw false
+      }}
+      chat.delete = isEnable
+      break
+
       case 'audios':
       if (m.isGroup) {
       if (!(isAdmin || isOwner)) {
@@ -126,6 +135,9 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
 
 *𝘛𝘪𝘱𝘰 :* 𝘢𝘯𝘵𝘪𝘭𝘪𝘯𝘬 
 *𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘤𝘪𝘰́𝘯 :* 𝘋𝘦𝘴/𝘈𝘤𝘵𝘪𝘷𝘢 𝘦𝘭 *𝘈𝘯𝘵𝘪𝘓𝘪𝘯𝘬* 𝘱𝘢𝘳𝘢 𝘎𝘳𝘶𝘱𝘰𝘴.
+
+*𝘛𝘪𝘱𝘰 :* _delete_ 
+*𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘤𝘪𝘰́𝘯 :* 𝘋𝘦𝘴/𝘈𝘤𝘵𝘪𝘷𝘢 𝘦𝘭 *Antieliminar* 𝘱𝘢𝘳𝘢 𝘎𝘳𝘶𝘱𝘰𝘴.
 
 *𝘛𝘪𝘱𝘰 :* 𝘥𝘰𝘤𝘶𝘮𝘦𝘯𝘵 
 *𝘋𝘦𝘴𝘤𝘳𝘪𝘱𝘤𝘪𝘰́𝘯 :* 𝘋𝘦𝘴/𝘈𝘤𝘵𝘪𝘷𝘢 𝘭𝘢 *𝘋𝘦𝘴𝘤𝘢𝘳𝘨𝘢 𝘌𝘯 𝘋𝘰𝘤𝘶𝘮𝘦𝘯𝘵𝘰𝘴* 𝘱𝘢𝘳𝘢 𝘦𝘭 𝘜𝘴𝘶𝘢𝘳𝘪𝘰.
