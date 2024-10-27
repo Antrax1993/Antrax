@@ -28,6 +28,5 @@ Total gastado: *${-limit}* 🍬 Dulces`)
 handler.help = ['dardulces *@user <cantidad>*']
 handler.tags = ['rpg']
 handler.command = ['dardulces', 'donardulces']
-handler.register = true 
 
 export default handler
