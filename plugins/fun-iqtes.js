@@ -4,7 +4,6 @@ let handler  = async (m, { conn }) => {
 handler.help = ['iqtest']
 handler.tags = ['fun']
 handler.command = /^(iqtest|iq)$/i
-handler.register = true
 
 
 handler.fail = null
