@@ -9,5 +9,4 @@ handler.command = handler.help = ['stop', 'byebot'];
 handler.tags = ['jadibot'];
 handler.owner = true
 handler.private = true
-handler.register = true
 export default handler
