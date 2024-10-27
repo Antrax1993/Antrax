@@ -122,12 +122,11 @@ let handler = async(m, { conn, usedPrefix, command, text }) => {
     }
     m.reply(Output_String)
   } else {
-    m.reply(`🍭 Ingresa un texto mas el comando.\n\nEjemplo\nEncode: *${usedPrefix}${command}* encode Hola mundo\nDecode : *${usedPrefix}${command}* decode •••• • •-•• •-•• --- / •-- --- •-• •-•• -••`)
+    m.reply(`👀 Ingresa un texto mas el comando.\n\nEjemplo\nEncode: *${usedPrefix}${command}* encode Hola mundo\nDecode : *${usedPrefix}${command}* decode •••• • •-•• •-•• --- / •-- --- •-• •-•• -••`)
   }
 }
 
 handler.help = ["morse"].map(v => v + " <encode|decode>")
 handler.tags = ["tools"]
-handler.command = /^(morse)/i
-handler.register = true 
+handler.command = /^(morse)/i 
 export default handler
