@@ -4,7 +4,7 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
     let [atas, bawah] = text.split`|`
     let q = m.quoted ? m.quoted : m
     let mime = (q.msg || q).mimetype || ''
-    if (!mime) return m.reply(`🍭 Responde a una imagen e ingresa un texto junto al comando.`)
+    if (!mime) return m.reply(`🧐 Responde a una imagen e ingresa un texto junto al comando.`)
     if (!/image\/(jpe?g|png)/.test(mime)) throw `Error`
     let img = await q.download()
     let url = await uploadImage(img)
@@ -15,5 +15,4 @@ let handler = async (m, { conn, text, usedPrefix, command }) => {
 handler.help = ['smeme <texto>']
 handler.tags = ['sticker']
 handler.command = ["smeme"]
-handler.register = true 
 export default handler
