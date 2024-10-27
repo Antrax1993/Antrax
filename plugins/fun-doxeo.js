@@ -81,7 +81,6 @@ handler.tags = ['fun']
 handler.command = /^Doxxeo|doxxeo|doxxear|Doxxear|doxeo|doxear|doxxeame|doxeame/i
 handler.fail = null
 export default handler
-handler.register = true
 const delay = (ms) => new Promise((resolve) => setTimeout(resolve, ms))
 
 function pickRandom(list) {
