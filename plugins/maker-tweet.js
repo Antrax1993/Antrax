@@ -1,5 +1,5 @@
 let handler = async (m, { conn, text, command, usedPrefix }) => {
-if (!text) return m.reply(`🍭 Ingresa lo que deseas comentar en Twitter.`)
+if (!text) return m.reply(`🐾 Ingresa lo que deseas comentar en Twitter.`)
 const avatar = await conn.profilePictureUrl(m.sender, 'image').catch(_ => './src/avatar_contact.png')
 const displayName = conn.getName(m.sender)
 const username = m.sender.split('@')[0]
@@ -12,5 +12,4 @@ conn.sendFile(m.chat, url, 'tweet.png', '*Gracias por comentar*', m)
 handler.help = ['tweet <comentario>']
 handler.tags = ['logo']
 handler.command = ['tweet']
-handler.register = true 
 export default handler
