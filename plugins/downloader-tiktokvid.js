@@ -16,6 +16,5 @@ try {
 
 handler.command = ['tts', 'tiktokvid', 'ttvid'];
 handler.help = ['tiktoksearch <texto>'];
-handler.registrado = true;
 handler.diamantes = 1;
 export default handler;
