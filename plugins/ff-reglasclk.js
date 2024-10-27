@@ -25,6 +25,5 @@ global.db.data.users[m.sender].lastcofre = new Date * 1
 handler.help = ['reglasclk']
 handler.tags = ['freefire']
 handler.command = ['reglasclk' ,'clk'] 
-handler.register = true
 handler.admin = true
 export default handler
