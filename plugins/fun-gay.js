@@ -4,7 +4,7 @@ let handler = async (m, { groupMetadata }) => {
    await m.reply(`@${who.split("@")[0]} es ${nro}% Gay 🏳️‍🌈.`, null, { mentions: [who] })
 }
 
-handler.help = ['gay']
+handler.help = ['gay2']
 handler.tags = ['fun']
 handler.command = ['cekgay', 'gay2']
 
