@@ -1,9 +1,9 @@
 import { webp2mp4 } from '../lib/webp2mp4.js'
 import { ffmpeg } from '../lib/converter.js'
 let handler = async (m, { conn }) => {
-if (!m.quoted) return conn.reply('🍭 Responde a un *Sticker Animado.*')
+if (!m.quoted) return conn.reply('🧐 Responde a un *Sticker Animado.*')
 let mime = m.quoted.mimetype || ''
-if (!/webp|audio/.test(mime)) return conn.reply('🍭 Responde a un *Sticker Animado.*')
+if (!/webp|audio/.test(mime)) return conn.reply('🧐 Responde a un *Sticker Animado.*')
 try {
 let media = await m.quoted.download()
 let out = Buffer.alloc(0)
@@ -23,7 +23,6 @@ await conn.sendFile(m.chat, out, 'thumbnail.jpg', null , m)
 }}
 handler.help = ['tovid <sticker>']
 handler.tags = ['sticker', 'tools']
-handler.command = ['tovideo', 'tovid']
-handler.register = true 
+handler.command = ['tovideo', 'tovid'] 
 
 export default handler
