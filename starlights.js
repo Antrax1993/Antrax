@@ -428,3 +428,11 @@ setInterval(async () => {
   await purgeOldFiles()
 }, 1000 * 60 * 60);
 _quickTest().catch(console.error)
+
+async function isValidPhoneNumber(number) {
+try {
+const parsedNumber = phoneUtil.parseAndKeepRawInput(number)
+return phoneUtil.isValidNumber(parsedNumber)
+} catch (error) {
+return false
+}}
