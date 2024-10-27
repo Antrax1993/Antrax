@@ -25,6 +25,5 @@ global.db.data.users[m.sender].lastcofre = new Date * 1
 handler.help = ['nexterra']
 handler.tags = ['freefire']
 handler.command = ['nexterra'] 
-handler.register = true
 handler.admin = true
 export default handler
