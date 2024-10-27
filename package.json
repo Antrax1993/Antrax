@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "https://github.com/Sisked-Bot/Sisked-Bot",
+  "homepage": "https://github.com/Andrea-Sis/Siske",
   "author": {
     "name": "Sisked"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Sisked-Bot/Sisked-Bot.git"
+    "url": "git+https://github.com/Andrea-Sis/Siske.git"
   },
   "bugs": {
-    "url": "https://github.com/Sisked-Bot/Sisked-Bot/issues"
+    "url": "https://github.com/Andrea-Sis/Siske/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
