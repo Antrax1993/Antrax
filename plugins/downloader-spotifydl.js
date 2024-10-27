@@ -62,5 +62,4 @@ handler.tags = ['downloader']
 handler.help = ['spotifydl *<url spotify>*']
 handler.command = ['spotifydl']
 //handler.limit = 1
-handler.register = true
 export default handler
