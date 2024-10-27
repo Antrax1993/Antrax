@@ -60,5 +60,4 @@ global.db.data.users[m.sender].lastcofre = new Date * 1
 handler.help = ['guia']
 handler.tags = ['group']
 handler.command = ['guia'] 
-handler.register = true
 export default handler
