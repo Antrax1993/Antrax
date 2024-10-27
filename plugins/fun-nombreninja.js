@@ -35,6 +35,5 @@ if (!text) return m.reply(`🚩 Ingresa tu nombre junto al comando.`)
 handler.help = ['nombreninja *<texto>*']
 handler.tags = ['fun']
 handler.command = ['nombreninja']
-handler.register = true
 
 export default handler
