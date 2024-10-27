@@ -24,7 +24,6 @@ await m.react('✖️')
 }}
 handler.help = ['tweetposts *<búsqueda>*']
 handler.tags = ['search']
-handler.command = ['twittersearch']
-handler.register = true 
+handler.command = ['twittersearch'] 
 
 export default handler
