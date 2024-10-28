@@ -18,6 +18,7 @@ let texto = `*☁️ _M E N U - A U D I O S_ ☁️*
 ° _Fiesta De Admin 2_.
 ° _Fiesta De Admin_.
 ° _Verdad Que Te Engañe_.
+° _Hermoso Negro_.
 ° _Vivan Los Novios_.
 ° _Usted Esta Detenido_.
 ° _Su Nivel De Pendejo_.
