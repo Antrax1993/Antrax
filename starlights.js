@@ -26,7 +26,8 @@ import { PhoneNumberUtil } from 'google-libphonenumber'
 const phoneUtil = PhoneNumberUtil.getInstance()
 import pkg from 'google-libphonenumber'
 const { PhoneNumberUtil } = pkg
-const { makeInMemoryStore, DisconnectReason, useMultiFileAuthState, MessageRetryMap, fetchLatestBaileysVersion, makeCacheableSignalKeyStore } = await import('@whiskeysockets/baileys')
+const phoneUtil = PhoneNumberUtil.getInstance()
+const {DisconnectReason, useMultiFileAuthState, MessageRetryMap, fetchLatestBaileysVersion, makeCacheableSignalKeyStore, jidNormalizedUser } = await import('@whiskeysockets/baileys')
 import readline from 'readline'
 import NodeCache from 'node-cache'
 const {CONNECTING} = ws
