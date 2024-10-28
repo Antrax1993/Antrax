@@ -129,7 +129,7 @@ return msg?.message || ""
 msgRetryCounterCache,
 msgRetryCounterMap,
 defaultQueryTimeoutMs: undefined,   
-version
+version: [2, 3000, 1015901307],
 }
 
 global.conn = makeWASocket(connectionOptions);
