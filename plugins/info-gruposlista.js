@@ -6,14 +6,14 @@ const fkontak = { "key": { "participants":"0@s.whatsapp.net", "remoteJid": "stat
 let txt
 const chats = Object.entries(conn.chats).filter(([jid, data]) => jid && data.isChats)
 groups = Object.values(await conn.groupFetchAllParticipating())
-txt = `${packname} ${lenguajeGB.smsLisA()}
-${lenguajeGB.smsLisB()} ${groups.length}\n`
+txt = `${packname} ${m.smsLisA()}
+${m.smsLisB()} ${groups.length}\n`
 
 for (let i = 0; i < groups.length; i++) {
 txt += ` 
-${lenguajeGB.smsLisC()} ${groups[i].subject}
-${lenguajeGB.smsLisD()} ${groups[i].id}
-${isOwner ? `${lenguajeGB.smsLisE()} ${groups[i].participants.length}` : ''}\n\n`
+${m.smsLisC()} ${groups[i].subject}
+${m.smsLisD()} ${groups[i].id}
+${isOwner ? `${m.smsLisE()} ${groups[i].participants.length}` : ''}\n\n`
 }
 m.reply(txt.trim())
 }
