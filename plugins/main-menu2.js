@@ -14,9 +14,10 @@ let texto = `*☁️ _M E N U - A U D I O S_ ☁️*
 ° _Diagnosticado Con Gay_.
 ° _Esto Va Para Ti_.
 ° _Feliz Cumpleaños_.
-° _Fiesta De Admin 3_.
-° _Fiesta De Admin 2_.
-° _Fiesta De Admin_.
+° _Maldito Teni_.
+° _Conoces a Miguel_.
+° _Usted es Feo_.
+° _Como Estan_.
 ° _Verdad Que Te Engañe_.
 ° _Hermoso Negro_.
 ° _Vivan Los Novios_.
