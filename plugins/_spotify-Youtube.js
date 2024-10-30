@@ -53,14 +53,13 @@ _*🎶 Enviando música...*_`.trim();
 
     } catch (e) {
 
-        await conn.reply(m.chat, `❌ _*El comando #play está fallando, repórtalo al creador del bot*_`, m);
+        await conn.reply(m.chat, `❌ _*Comando Spotify Fallo Instenta Nuevamente*_`, m);
 
-        console.log(`❌ El comando #play está fallando`);
+        console.log(`❌ Spotify Fallo`);
         console.log(e);
     }
 };
 
-handler.help = ['play'] 
 handler.tags = ['downloader']
-handler.command = ['play'];
+handler.command = ['spotify'];
 export default handler;
