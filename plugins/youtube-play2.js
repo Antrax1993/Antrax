@@ -23,5 +23,5 @@ await conn.sendFile(m.chat, dl_url, title + '.mp4', `*🍭 Titulo ∙* ${title}\
 }}
 handler.help = ["play2 <búsqueda>"]
 handler.tags = ["downloader"]
-handler.command = ["play2"]
+handler.command = ["play24"]
 export default handler
