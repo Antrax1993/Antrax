@@ -18,5 +18,5 @@ await conn.sendFile(m.chat, dl_url, title + '.mp3', `*🍭 Titulo ∙* ${title}\
 }}
 handler.help = ['spotify <búsqueda>']
 handler.tags = ['downloader']
-handler.command = ['spotify'] 
+handler.command = ['spotify2'] 
 export default handler
