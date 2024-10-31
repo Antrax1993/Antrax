@@ -4,7 +4,6 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 
     const randomReduction = Math.floor(Math.random() * 5) + 1;
     let search = await yts(text);
-    let f = `\n\n${String.fromCharCode(68,101,118,101,108,111,112,101,100,32,98,121,32,73,39,109,32,70,122,32,126)}`;
     let isVideo = /vid$/.test(command);
     let urls = search.all[0].url;
     let body = `\`YouTube Play\`
@@ -15,11 +14,11 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
     *Subido:* ${search.all[0].ago}
     *Url:* ${urls}
 
-🕒 *Su ${isVideo ? 'Video' : 'Audio'} se está enviando, espere un momento...*`;
+🕐 *El ${isVideo ? 'Video' : 'Audio'} se está enviando, un momento...*`;
     
     conn.sendMessage(m.chat, { 
         image: { url: search.all[0].thumbnail }, 
-        caption: body + f
+        caption: body
     }, { quoted: m,rcanal });
     m.react('🎵')
 
@@ -35,7 +34,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
 }
 
 handler.command = ['play', 'playvid'];
-handler.help = ['play <Busqueda>', 'play2 <Busquedad>'];
+handler.help = ['play <Busquedad>', 'playvid <Busquedad>'];
 handler.tags = ['dl'];
 export default handler;
 
