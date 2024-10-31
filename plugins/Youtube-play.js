@@ -29,7 +29,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
         mimetype: isVideo ? "video/mp4" : "audio/mpeg" 
     }, { quoted: m });
 }
-handler.command = ['play <Busqueda>', 'playvid <Busquedad>'];
+handler.command = ['play', 'play2'];
 handler.help = ['play', 'playvid'];
 handler.tags = ['dl'];
 export default handler;
@@ -50,4 +50,4 @@ async function dl_vid(url) {
     }
     const data = await response.json();
     return data;
-    }
+}
