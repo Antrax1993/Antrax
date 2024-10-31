@@ -18,7 +18,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
         image: { url: search.all[0].thumbnail }, 
         caption: body + f
     }, { quoted: m,rcanal });
-    m.react('react1')
+    m.react('🎵')
     let res = await dl_vid(urls)
     let type = isVideo ? 'video' : 'audio';
     let video = res.data.mp4;
@@ -29,7 +29,7 @@ const handler = async (m, { conn, text, usedPrefix, command }) => {
         mimetype: isVideo ? "video/mp4" : "audio/mpeg" 
     }, { quoted: m });
 }
-handler.command = ['play', 'play2'];
+handler.command = ['play', 'playvid'];
 handler.help = ['play', 'playvid'];
 handler.tags = ['dl'];
 export default handler;
