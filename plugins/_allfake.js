@@ -56,11 +56,11 @@ newsletterName: '𝑺𝑰𝑺𝑲𝑬𝑫-𝑩𝑶𝑻',
 },
 externalAdReply: { 
 showAdAttribution: true,
-title: '𝑺𝑰𝑺𝑲𝑬𝑫-𝑩𝑶𝑻',
-body: 'Super Bot de WhatsApp ⭐',
+title: '𝙑𝙚𝙣𝙤𝙢-𝘽𝙤𝙩',
+body: 'HOLA EDDY',
 previewType: "PHOTO",
-thumbnailUrl: 'https://i.ibb.co/qBxdwZW/file.jpg',
-sourceUrl: 'https://www.instagram.com/sisked_1',
+thumbnailUrl: 'https://i.ibb.co/GsBGcgB/file.jpg',
+sourceUrl: 'https://www.tiktok.com/@jorgevalle1993',
 mediaType: 1,
 renderLargerThumbnail: false
 },},}
