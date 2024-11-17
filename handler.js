@@ -91,6 +91,8 @@ export async function handler(chatUpdate) {
                     chat.modoadmin = false
                 if (!('detect' in chat)) 
                     chat.detect = true
+                if (!('modohorny' in chat))
+                    chat.modohorny = false
                 if (!('audios' in chat))
                     chat.audios = false
                 if (!('antiLink' in chat))
@@ -109,6 +111,7 @@ export async function handler(chatUpdate) {
                     bienvenida: true,
                     modoadmin: false,
                     detect: true,
+                    modohorny: false,
                     audios: false,
                     antiLink: false,
                     delete: false,
