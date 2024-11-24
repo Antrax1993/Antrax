@@ -24,13 +24,13 @@ global.prems = []
    
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
 
-global.packname = `𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫`
-global.author = '{\n "bot": {\n   "name": "𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫",\n     "author": "Anuar",\n   "status_bot": "active"\n }\n}'
-global.wait = '𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫'
-global.botname = '𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻 - 𝑴𝑫'
-global.textbot = `Super Bot De WhatsApp ⭐`
+global.packname = `𝙑𝙚𝙢𝙤𝙣 𝘽𝙤𝙩 `
+global.author = '{\n "bot": {\n   "name": "𝙑𝙚𝙢𝙤𝙣 𝘽𝙤𝙩",\n     "author": "Jorge",\n   "status_bot": "active"\n }\n}'
+global.wait = '𝙑𝙚𝙢𝙤𝙣 𝘽𝙤𝙩 '
+global.botname = '𝙑𝙚𝙢𝙤𝙣 𝘽𝙤𝙩 '
+global.textbot = ` Poweber by Jorge`
 global.listo = 'Completado ✯'
-global.namechannel = '𝑺𝑰𝑺𝑲𝑬𝑫 𝑩𝑶𝑻'
+global.namechannel = '「  𝑺𝑰𝑺𝑲𝑬𝑫 - 𝑪𝑯𝑨𝑵𝑬𝑳  」'
 global.baileys = '@whiskeysockets/baileys'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
