@@ -30,7 +30,7 @@ global.wait = '𝙑𝙚𝙢𝙤𝙣 𝘽𝙤𝙩 '
 global.botname = '𝙑𝙚𝙢𝙤𝙣 𝘽𝙤𝙩 '
 global.textbot = ` Poweber by Jorge`
 global.listo = 'Completado ✯'
-global.namechannel = '「  𝑺𝑰𝑺𝑲𝑬𝑫 - 𝑪𝑯𝑨𝑵𝑬𝑳  」'
+global.namechannel = '「  𝙑𝙚𝙣𝙤𝙢-𝘽𝙤𝙩  」'
 global.baileys = '@whiskeysockets/baileys'
 
 //*─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─⭒─ׄ─ׅ─ׄ─*
