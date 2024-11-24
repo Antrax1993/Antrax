@@ -30,7 +30,7 @@ export async function before(m, {conn, participants, groupMetadata}) {
         .replace('@desc', () => groupMetadata.desc || 'sin descripción');
       await conn.sendAi(m.chat, botname, textbot, bye, img, img, canal)
     } else {
-      let bye = `┌─★ 𝙑𝙚𝙣𝙤𝙢-𝘽𝙤𝙩 - 𝑴𝑫 \n│「 ADIOS 👋 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │✑  Se fue\n   │✑ Jamás te quisimos aquí\n   └───────────────┈ ⳹`
+      let bye = `┌─★ 𝙑𝙚𝙣𝙤𝙢-𝘽𝙤𝙩 - 𝑴𝑫 \n│「 ADIOS 👋 」\n└┬★ 「 @${m.messageStubParameters[0].split`@`[0]} 」\n   │✑  Se fue\n   │✑ TU AUSENCIA FUE COMO UN QLO, CON OLOR A MRD!! 😈  \n   └───────────────┈ ⳹`
       await conn.sendAi(m.chat, botname, textbot, bye, img, img, canal)
     }
   }
