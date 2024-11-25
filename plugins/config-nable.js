@@ -36,6 +36,17 @@ let handler = async (m, { conn, usedPrefix, command, args, isOwner, isAdmin, isR
       chat.modoadmin = isEnable          
       break
 
+      case 'antibot':
+    case 'antibots':
+      if (m.isGroup) {
+        if (!(isAdmin || isOwner)) {
+          global.dfail('admin', m, conn)
+          throw false
+        }
+      }
+      chat.antiBot = isEnable
+      break
+      
       case 'detect': case 'avisos':
       if (!m.isGroup) {
       if (!isOwner) {
