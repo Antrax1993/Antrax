@@ -18,16 +18,16 @@
     "eslint": "eslint .",
     "eslintfix": "eslint --fix ."
   },
-  "homepage": "",
+  "homepage": "https://github.com/Antrax1993/Antrax",
   "author": {
     "name": "Sisked"
   },
   "repository": {
     "type": "git",
-    "url": "git+"
+    "url": "git+https://github.com/Antrax1993/Antrax.git"
   },
   "bugs": {
-    "url": "/issues"
+    "url": "https://github.com/Antrax1993/Antrax/issues"
   },
   "license": "GPL-3.0-or-later",
   "dependencies": {
